@@ -1,0 +1,55 @@
+.small {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .small {
+    display: none;
+  }
+}
+.large {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .large {
+    display: flex;
+  }
+}
+.profile-image {
+  width: 30px;
+  height: 30px;
+}
+.logo {
+  height: 35px;
+  width: 130px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.ul-list {
+  display: flex;
+  padding: 20px;
+  margin-left: auto;
+  list-style-type: none;
+}
+.header-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.header-icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.li {
+  margin: 10px;
+  margin-top: 0px;
+}
+.logout-button {
+  height: 25px;
+  width: 80px;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  font-family: Roboto;
+  background-color: transparent;
+  cursor: pointer;
+}

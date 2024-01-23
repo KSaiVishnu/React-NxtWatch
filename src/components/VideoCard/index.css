@@ -1,0 +1,31 @@
+.li-item {
+  width: 90%;
+  margin: 7px;
+}
+.image {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.profile-img {
+  width: 40px;
+  height: 40px;
+}
+.down-container {
+  display: flex;
+}
+.dot-icon {
+  margin: 10px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 576px) {
+  .li-item {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .li-item {
+    width: 28%;
+  }
+}

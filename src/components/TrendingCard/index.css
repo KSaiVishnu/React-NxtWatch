@@ -1,0 +1,18 @@
+.t-li-item {
+  display: flex;
+  width: 95%;
+  margin: 2%;
+  text-decoration: none;
+}
+.t-image {
+  width: 50%;
+}
+.t-card {
+  display: flex;
+}
+.t-container {
+  width: 50%;
+}
+.title {
+  font-size: 22px;
+}

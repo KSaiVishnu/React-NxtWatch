@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+
+.gaming-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rightbar {
+  width: 77%;
+}
+@media screen and (max-width: 767px) {
+  .rightbar {
+    width: 100%;
+  }
+}

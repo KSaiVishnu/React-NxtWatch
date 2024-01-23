@@ -1,0 +1,19 @@
+.g-li-item {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  margin: 1%;
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .g-li-item {
+    width: 45%;
+  }
+}
+.g-image {
+  width: 100%;
+}
+
+.title {
+  font-size: 22px;
+}

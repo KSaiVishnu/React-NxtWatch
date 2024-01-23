@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+}
+.videos-ul-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.premium-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.premium-img {
+  height: 35px;
+  width: 130px;
+}
+.getit-btn {
+  height: 30px;
+  width: 100px;
+  border-width: 0px;
+  border: 1px solid;
+  background-color: transparent;
+  cursor: pointer;
+}
+.close-button {
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: 5%;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.search-input {
+  height: 35px;
+  width: 250px;
+  margin: 20px 0px 20px 20px;
+}
+.search-btn {
+  height: 35px;
+  width: 50px;
+  cursor: pointer;
+}
+.rightbar {
+  width: 77%;
+}
+.novideos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.novideos-img {
+  width: 50%;
+}
+.retry-btn {
+  height: 28px;
+  width: 90px;
+  border-width: 0px;
+  color: white;
+  background-color: #00306e;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .rightbar {
+    width: 100%;
+  }
+}
